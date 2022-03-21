@@ -12,6 +12,7 @@ module.exports = {
       "dark-green": "#216869",
       green: "#49A078",
       "light-green": "#9cc5A1",
+      "light-grey": "#F5F5F5",
     },
     fontFamily: {
       ubuntu: ["Ubuntu", "sans-serif"],
