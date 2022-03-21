@@ -11,18 +11,16 @@ const Section1 = () => {
         background: `linear-gradient(to right, rgba(33,104,105,0.7) 10%, rgba(73,160,120,0.7) 90%), url(${PSGCollegeLanding})`,
         backgroundSize: "cover",
         backgroundPosition: "center",
+        backgroundAttachment: "fixed",
       }}
     >
-      <h1 className="font-bold font-ubuntu text-white text-5xl lg:text-6xl">
-        fifth
-        <br />
-        international
-        <br />
-        conference
+      <h1 className="font-bold font-ubuntu text-white text-5xl lg:text-7xl">
+        icamm 2023
       </h1>
       <h2 className="text-white font-poppins text-lg lg:text-xl">
-        On Applied Mathematical Models
+        Fifth International Conference <br/>on Applied Mathematical Models
       </h2>
+      <div className="flex-1"></div>
       <div className="flex items-center space-x-4">
         <img src={PSGLogo} alt="" className="invert h-28" />
         <div className="font-poppins text-white text-base lg:text-lg">

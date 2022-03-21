@@ -11,7 +11,7 @@ const Header = ({ theme = "dark", text = "text", subtext = "subtext", className=
         alt=""
       />
       <div
-        className={`relative translate-x-16 translate-y-8 font-ubuntu text-4xl ${
+        className={`relative ml-16 mt-8 font-ubuntu text-4xl ${
           theme === "dark" ? "text-black" : "text-white"
         }`}
       >
