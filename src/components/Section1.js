@@ -20,7 +20,7 @@ const Section1 = () => {
       <h2 className="text-white font-poppins text-lg lg:text-xl">
         Fifth International Conference <br/>on Applied Mathematical Models
       </h2>
-      <div className="flex-1"></div>
+      <div className="flex-1 min-h-[2rem]"></div>
       <div className="flex items-center space-x-4">
         <img src={PSGLogo} alt="" className="invert h-28" />
         <div className="font-poppins text-white text-base lg:text-lg">
