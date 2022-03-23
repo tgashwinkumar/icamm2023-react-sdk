@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/icamm2023-react-sdk/static/css/main.8eb4d093.css",
-    "main.js": "/icamm2023-react-sdk/static/js/main.ae71aeaa.js",
+    "main.css": "/icamm2023-react-sdk/static/css/main.6677df6c.css",
+    "main.js": "/icamm2023-react-sdk/static/js/main.1aa41e30.js",
     "static/js/787.6602bd0e.chunk.js": "/icamm2023-react-sdk/static/js/787.6602bd0e.chunk.js",
     "static/media/HOD_img.jpg": "/icamm2023-react-sdk/static/media/HOD_img.c67cb4899f1bbe80b01c.jpg",
     "static/media/psg_landing.jpg": "/icamm2023-react-sdk/static/media/psg_landing.a06d87f7482ee260188a.jpg",
     "static/media/PSG_logo.png": "/icamm2023-react-sdk/static/media/PSG_logo.91e77536c98ac2d70b22.png",
-    "static/media/polka_dark.svg": "/icamm2023-react-sdk/static/media/polka_dark.c7de909cdae8e65774e1ed2262369437.svg",
-    "static/media/polka_light.svg": "/icamm2023-react-sdk/static/media/polka_light.a4ace8a5bfb248ef0d09a580e84f5c7e.svg",
+    "static/media/polka_dark.svg": "/icamm2023-react-sdk/static/media/polka_dark.e9925115a5b06747f85aabf9d7c78e71.svg",
+    "static/media/polka_light.svg": "/icamm2023-react-sdk/static/media/polka_light.d1cc67ce14fc7ab576548e30a3c18dd3.svg",
     "index.html": "/icamm2023-react-sdk/index.html",
-    "main.8eb4d093.css.map": "/icamm2023-react-sdk/static/css/main.8eb4d093.css.map",
-    "main.ae71aeaa.js.map": "/icamm2023-react-sdk/static/js/main.ae71aeaa.js.map",
+    "main.6677df6c.css.map": "/icamm2023-react-sdk/static/css/main.6677df6c.css.map",
+    "main.1aa41e30.js.map": "/icamm2023-react-sdk/static/js/main.1aa41e30.js.map",
     "787.6602bd0e.chunk.js.map": "/icamm2023-react-sdk/static/js/787.6602bd0e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8eb4d093.css",
-    "static/js/main.ae71aeaa.js"
+    "static/css/main.6677df6c.css",
+    "static/js/main.1aa41e30.js"
   ]
 }
