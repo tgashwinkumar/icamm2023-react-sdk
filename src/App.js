@@ -4,6 +4,7 @@ import Section3 from "./components/Section3";
 import Section4 from "./components/Section4";
 import Section5 from "./components/Section5";
 import Section6 from "./components/Section6";
+import Section7 from "./components/Section7";
 import ShapeDivider from "./components/ShapeDivider";
 import "./styles/tailwind.output.css";
 
@@ -24,6 +25,9 @@ const App = () => {
       <Section5 />
       {/* Important Topics */}
       <Section6 />
+      {/* Call for Papers */}
+      <Section7 />
+           
     </main>
   );
 };
