@@ -1,4 +1,16 @@
 import Header from "./Header";
+const Row = ({ category = "cat", price = "price" }) => {
+  return (
+    <div className=" bg-whitesmoke py-2 border-solid border-slate border font-poppins flex">
+      <p className="text-left ml-2 md:ml-5 w-3/5">{category}</p>
+      <div className="flex-1"></div>
+      <p className=" bg-light-green relative right-2 rounded-lg px-5 py-0.5 text-center items-center flex">
+        {price}
+      </p>
+    </div>
+  );
+};
+
 const Section8 = () => {
   return (
     <section className="w-screen h-fit px-6 py-16 lg:px-[calc(100vw/12)] space-y-4 lg:flex lg:flex-col bg-green">
@@ -17,50 +29,21 @@ const Section8 = () => {
           <div className="bg-dark-green font-ubuntu flex items-center justify-center py-2 border-solid border-slate border text-white border-t-2">
             Indian Delegates
           </div>
-          <div className="bg-whitesmoke py-2 border-solid border-slate border font-poppins flex">
-            <p className="text-left mx-5">Academicians</p>
-            <p className=" bg-light-green relative right-2 rounded-lg px-5 py-0.5">
-              ₹ 2500
-            </p>
-          </div>
-          <div className="bg-whitesmoke py-2 border-solid border-slate border font-poppins flex">
-            <p className="text-left mx-5">
-              Industry / R&D Institutuion Participants
-            </p>
-            <p className=" bg-light-green relative right-2 rounded-lg px-5 py-0.5">
-              ₹ 1500
-            </p>
-          </div>
-          <div className="bg-whitesmoke py-2 border-solid border-slate border font-poppins flex">
-            <p className="text-left mx-5">Full Time Research Scholars</p>
-            <p className=" bg-light-green relative right-2 rounded-lg px-5 py-0.5">
-              ₹ 1000
-            </p>
-          </div>
-          <div className="bg-whitesmoke py-2 border-solid border-slate border-b-2 border font-poppins flex">
-            <p className="text-left mx-5">Accompanying guests / Spouse</p>
-            <p className="bg-light-green relative right-2 rounded-lg px-5 py-0.5">
-              ₹ 1000
-            </p>
-          </div>
+          <Row category="Academecians" price="₹2500" />
+          <Row
+            category="Industry / R&D Institutuion Participants"
+            price="₹1500"
+          />
+          <Row category="Full Time Research Scholars" price="₹1000" />
+          <Row category="Accompanying guests / Spouse" price="₹1000" />
         </div>
 
         <div className="grid grid-rows-3 bg-white w-full h-fit mt-20">
           <div className="bg-dark-green font-ubuntu flex items-center justify-center py-2 border-solid border-slate border text-white border-t-2">
             Foreign Delegates
           </div>
-          <div className="bg-whitesmoke py-2 border-solid border-slate border font-poppins flex">
-            <p className="text-left mx-5">Academicians</p>
-            <p className="bg-light-green relative right-2 rounded-lg px-5 py-0.5">
-              200 USD
-            </p>
-          </div>
-          <div className="bg-whitesmoke py-2 border-solid border-slate border-b-2 border font-poppins flex">
-            <p className="text-left mx-5">Accompanying guests / Spouse</p>
-            <p className="bg-light-green relative right-2 rounded-lg px-5 py-0.5">
-              100 USD
-            </p>
-          </div>
+          <Row category="Academecians" price="200 USD" />
+          <Row category="Accompanying guests / Spouse" price="100 USD" />
         </div>
       </div>
       <div className=" items-start my-6 pt-8 lg:space-y-0">

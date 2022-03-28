@@ -13,12 +13,14 @@ const Section1 = () => {
         backgroundPosition: "center",
         backgroundAttachment: "fixed",
       }}
+      id="section1"
     >
       <h1 className="font-bold font-ubuntu text-white text-5xl lg:text-7xl">
         icamm 2023
       </h1>
       <h2 className="text-white font-poppins text-lg lg:text-xl">
-        Fifth International Conference <br/>on Applied Mathematical Models
+        Fifth International Conference <br />
+        on Applied Mathematical Models
       </h2>
       <div className="flex-1 min-h-[2rem]"></div>
       <div className="flex items-center space-x-4">

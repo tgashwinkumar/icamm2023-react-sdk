@@ -6,12 +6,14 @@ import Section5 from "./components/Section5";
 import Section6 from "./components/Section6";
 import Section7 from "./components/Section7";
 import Section8 from "./components/Section8";
+import Navbar from "./components/Navbar";
 import ShapeDivider from "./components/ShapeDivider";
 import "./styles/tailwind.output.css";
 
 const App = () => {
   return (
     <main className="w-screen h-screen  overflow-x-hidden">
+      <Navbar />
       <Section1 />
       <div className="translate-y-0 hidden lg:block">
         <ShapeDivider />
