@@ -1,9 +1,12 @@
 import React from "react";
 import Header from "./Header";
-import {FiMail } from "react-icons/fi"
+import { FiMail } from "react-icons/fi";
 const Section7 = () => {
   return (
-    <section className="w-screen h-fit px-6 py-24 lg:px-[calc(100vw/12)] space-y-4 lg:flex lg:flex-col bg-white">
+    <section
+      id="section7"
+      className="w-screen h-fit px-6 py-24 lg:px-[calc(100vw/12)] space-y-4 lg:flex lg:flex-col bg-white"
+    >
       <div className="flex flex-col lg:flex-row items-start">
         <Header theme="dark" subtext="call for" text="papers" />
         <div className="flex-1 "></div>
@@ -17,14 +20,15 @@ const Section7 = () => {
             after the receipt of author registration will appear in full-length
             in the conference proceedings (CD format only).
           </p>
-        <div className="mt-12">
-          For all communications and paper submissions use the e-mail address :-
+          <div className="mt-12">
+            For all communications and paper submissions use the e-mail address
+            :-
+          </div>
+          <div className="text-xl font-ubuntu flex space-x-2 items-center mt-2">
+            <FiMail size={24} />
+            <p className="">icamm2023@psgtech.ac.in</p>
+          </div>
         </div>
-        <div className="text-xl font-ubuntu flex space-x-2 items-center mt-2">
-          <FiMail size={24}/>
-          <p className="">icamm2023@psgtech.ac.in</p>
-        </div>
-      </div>
       </div>
     </section>
   );

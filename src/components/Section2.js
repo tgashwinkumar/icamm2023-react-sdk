@@ -3,15 +3,42 @@ import Header from "./Header";
 
 const Section2 = () => {
   return (
-    <section className="w-screen h-fit px-6 py-24 lg:px-[calc(100vw/12)] space-y-4 lg:flex lg:flex-col ">
+    <section
+      id="section2"
+      className="w-screen h-fit px-6 py-24 lg:px-[calc(100vw/12)] space-y-4 lg:flex lg:flex-col "
+    >
       <div className="flex flex-col lg:flex-row lg:items-center">
-        <Header subtext="important" text="dates" className="lg:-translate-y-16"/>
+        <Header
+          subtext="important"
+          text="dates"
+          className="lg:-translate-y-16"
+        />
         <div className="lg:block lg:flex-1 hidden"></div>
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-x-6 gap-y-6 lg:gap-x-10 mt-16">
-          <DateContext className="" monthyear="October 2022" date="15" text="Paper Submission" />
-          <DateContext className="" monthyear="November 2022" date="19" text="Notification of Acceptance" />
-          <DateContext className="" monthyear="December 2022" date="05" text="Camera Ready Paper" />
-          <DateContext className="" monthyear="December 2022" date="12" text="Author Registration" />
+          <DateContext
+            className=""
+            monthyear="October 2022"
+            date="15"
+            text="Paper Submission"
+          />
+          <DateContext
+            className=""
+            monthyear="November 2022"
+            date="19"
+            text="Notification of Acceptance"
+          />
+          <DateContext
+            className=""
+            monthyear="December 2022"
+            date="05"
+            text="Camera Ready Paper"
+          />
+          <DateContext
+            className=""
+            monthyear="December 2022"
+            date="12"
+            text="Author Registration"
+          />
         </div>
       </div>
     </section>

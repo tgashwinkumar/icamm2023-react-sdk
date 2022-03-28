@@ -3,7 +3,10 @@ import Header from "./Header";
 
 const Section3 = () => {
   return (
-    <section className="w-screen h-fit px-6 py-16 lg:px-[calc(100vw/12)] space-y-4 lg:flex lg:flex-col bg-green">
+    <section
+      id="section3"
+      className="w-screen h-fit px-6 py-16 lg:px-[calc(100vw/12)] space-y-4 lg:flex lg:flex-col bg-green"
+    >
       <div className="flex flex-col lg:flex-row items-start">
         <Header theme="light" subtext="about the" text="institution" />
         <div className="flex-1 "></div>

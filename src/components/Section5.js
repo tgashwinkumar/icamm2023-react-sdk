@@ -3,7 +3,10 @@ import Header from "./Header";
 
 const Section5 = () => {
   return (
-    <section className="w-screen h-fit px-6 py-16 lg:px-[calc(100vw/12)] space-y-4 lg:flex lg:flex-col bg-whitesmoke">
+    <section
+      id="section5"
+      className="w-screen h-fit px-6 py-16 lg:px-[calc(100vw/12)] space-y-4 lg:flex lg:flex-col bg-whitesmoke"
+    >
       <div className="flex flex-col lg:flex-row items-start">
         <Header theme="dark" subtext="theme of" text="conference" />
         <div className="flex-1 "></div>
@@ -32,9 +35,7 @@ const Section5 = () => {
             </div>
             <div className="lg:w-1/2">
               <p className="font-bold text-2xl font-ubuntu">timings</p>
-              <p className="">
-                January 4th to 6th, 2023
-              </p>
+              <p className="">January 4th to 6th, 2023</p>
             </div>
           </div>
           <p className="">
