@@ -52,7 +52,7 @@ const Navbar = () => {
         <div className="flex-1"></div>
         <div className="flex items-center justify-center">
           <div className="hidden md:flex items-center space-x-3 text-lg pr-10">
-            <NavItem name="Important Dates" link="#secion2" />
+            <NavItem name="Important Dates" link="#section2" />
             <NavItem name="About" link="#section3" />
             <NavItem name="Theme" link="#section5" />
             <NavItem name="Submission" link="#section6" />
