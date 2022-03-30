@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/icamm2023-react-sdk/static/css/main.fa45e231.css",
-    "main.js": "/icamm2023-react-sdk/static/js/main.43bd957c.js",
+    "main.css": "/icamm2023-react-sdk/static/css/main.e945c363.css",
+    "main.js": "/icamm2023-react-sdk/static/js/main.7effb94f.js",
     "static/js/787.6602bd0e.chunk.js": "/icamm2023-react-sdk/static/js/787.6602bd0e.chunk.js",
     "static/media/HOD_img.jpg": "/icamm2023-react-sdk/static/media/HOD_img.c67cb4899f1bbe80b01c.jpg",
     "static/media/psg_landing.jpg": "/icamm2023-react-sdk/static/media/psg_landing.a06d87f7482ee260188a.jpg",
@@ -9,12 +9,12 @@
     "static/media/polka_dark.svg": "/icamm2023-react-sdk/static/media/polka_dark.e9925115a5b06747f85aabf9d7c78e71.svg",
     "static/media/polka_light.svg": "/icamm2023-react-sdk/static/media/polka_light.d1cc67ce14fc7ab576548e30a3c18dd3.svg",
     "index.html": "/icamm2023-react-sdk/index.html",
-    "main.fa45e231.css.map": "/icamm2023-react-sdk/static/css/main.fa45e231.css.map",
-    "main.43bd957c.js.map": "/icamm2023-react-sdk/static/js/main.43bd957c.js.map",
+    "main.e945c363.css.map": "/icamm2023-react-sdk/static/css/main.e945c363.css.map",
+    "main.7effb94f.js.map": "/icamm2023-react-sdk/static/js/main.7effb94f.js.map",
     "787.6602bd0e.chunk.js.map": "/icamm2023-react-sdk/static/js/787.6602bd0e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fa45e231.css",
-    "static/js/main.43bd957c.js"
+    "static/css/main.e945c363.css",
+    "static/js/main.7effb94f.js"
   ]
 }
