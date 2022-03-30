@@ -27,6 +27,7 @@ const NavItem = ({ name, link }) => {
 
 const Navbar = () => {
   const [color, setColor] = useState(false);
+
   const changeColor = () => {
     if (window.scrollY >= 40) {
       setColor(true);
@@ -35,8 +36,10 @@ const Navbar = () => {
     }
   };
 
-  window.addEventListener("scroll", changeColor);
-
+  useEffect(() => {
+    window.addEventListener("scroll", changeColor);
+  });
+  
   return (
     <nav className="fixed z-10 h-auto w-full">
       <div

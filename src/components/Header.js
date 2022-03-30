@@ -2,7 +2,12 @@ import React from "react";
 import PolkaDark from "../assets/polka_dark.svg";
 import PolkaLight from "../assets/polka_light.svg";
 
-const Header = ({ theme = "dark", text = "text", subtext = "subtext", className="" }) => {
+const Header = ({
+  theme = "dark",
+  text = "text",
+  subtext = "subtext",
+  className = "",
+}) => {
   return (
     <div className={`relative ${className}`}>
       <img

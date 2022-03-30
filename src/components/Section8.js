@@ -1,7 +1,7 @@
 import Header from "./Header";
-const Row = ({ category = "cat", price = "price" }) => {
+const Row = ({ category = "cat", price = "price", className = "" }) => {
   return (
-    <div className=" bg-whitesmoke py-2 border-solid border-slate border font-poppins flex">
+    <div className={`bg-whitesmoke py-2  font-poppins flex ${className}`}>
       <p className="text-left ml-2 md:ml-5 w-3/5">{category}</p>
       <div className="flex-1"></div>
       <p className=" bg-light-green relative right-2 rounded-lg px-5 py-0.5 text-center items-center flex">
@@ -14,8 +14,8 @@ const Row = ({ category = "cat", price = "price" }) => {
 const Section8 = () => {
   return (
     <section className="w-screen h-fit px-6 py-16 lg:px-[calc(100vw/12)] space-y-4 lg:flex lg:flex-col bg-green">
-      <div className=" lg:flex-row items-start">
-        <Header theme="light" subtext="" text="registration" />
+      <div className="flex flex-col lg:flex-row items-start">
+        <Header theme="light" subtext="about the" text="registration" />
         <div className="flex-1 "></div>
         <div className="text-white lg:max-w-[60%] pt-16 font-poppins text-justify">
           <p className="">
@@ -25,8 +25,16 @@ const Section8 = () => {
             only after the payment of registration fee.
           </p>
         </div>
-        <div className="grid grid-rows-5 bg-white w-full h-fit mt-20 border-solid border-slate border-x-1">
-          <div className="bg-dark-green font-ubuntu flex items-center justify-center py-2 border-solid border-slate border text-white border-t-2">
+      </div>
+      <div className="">
+        <div className="rounded-md grid grid-rows-5 bg-white w-full h-fit mt-20 ">
+          <div
+            style={{
+              borderTopLeftRadius: "0.375rem",
+              borderTopRightRadius: "0.375rem",
+            }}
+            className=" bg-dark-green font-ubuntu flex items-center justify-center py-2 text-white "
+          >
             Indian Delegates
           </div>
           <Row category="Academecians" price="₹2500" />
@@ -35,15 +43,29 @@ const Section8 = () => {
             price="₹1500"
           />
           <Row category="Full Time Research Scholars" price="₹1000" />
-          <Row category="Accompanying guests / Spouse" price="₹1000" />
+          <Row
+            category="Accompanying guests / Spouse"
+            price="₹1000"
+            className="rounded-md"
+          />
         </div>
 
-        <div className="grid grid-rows-3 bg-white w-full h-fit mt-20">
-          <div className="bg-dark-green font-ubuntu flex items-center justify-center py-2 border-solid border-slate border text-white border-t-2">
+        <div className=" rounded-md grid grid-rows-3 bg-white w-full h-fit mt-20">
+          <div
+            style={{
+              borderTopLeftRadius: "0.375rem",
+              borderTopRightRadius: "0.375rem",
+            }}
+            className="bg-dark-green font-ubuntu flex items-center justify-center py-2 text-white"
+          >
             Foreign Delegates
           </div>
           <Row category="Academecians" price="200 USD" />
-          <Row category="Accompanying guests / Spouse" price="100 USD" />
+          <Row
+            category="Accompanying guests / Spouse"
+            price="100 USD"
+            className="rounded-md"
+          />
         </div>
       </div>
       <div className=" items-start my-6 pt-8 lg:space-y-0">

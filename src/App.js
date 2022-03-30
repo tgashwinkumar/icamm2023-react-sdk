@@ -13,7 +13,7 @@ import "./styles/tailwind.output.css";
 const App = () => {
   return (
     <main className="w-screen h-screen  overflow-x-hidden">
-      <Navbar />
+      {/* <Navbar /> */}
       <Section1 />
       <div className="translate-y-0 hidden lg:block">
         <ShapeDivider />
@@ -30,7 +30,10 @@ const App = () => {
       <Section6 />
       {/* Call for Papers */}
       <Section7 />
-      {/*Register */}
+      <div className="mt-20 translate-y-0 hidden lg:block">
+        <ShapeDivider theme="green" />
+      </div>
+      {/*About the Registration */}
       <Section8 />
     </main>
   );
