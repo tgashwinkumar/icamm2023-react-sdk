@@ -29,6 +29,7 @@ const Navbar = () => {
   const [color, setColor] = useState(false);
 
   const changeColor = () => {
+    console.log(window.scrollY);
     if (window.scrollY >= 40) {
       setColor(true);
     } else {
@@ -39,7 +40,7 @@ const Navbar = () => {
   useEffect(() => {
     window.addEventListener("scroll", changeColor);
   });
-  
+
   return (
     <nav className="fixed z-10 h-auto w-full">
       <div
@@ -49,13 +50,15 @@ const Navbar = () => {
       >
         <div className="flex items-center justify-center w-fit">
           <a href="#section1">
-            <p className="font-head font-bold text-2xl color">icamm</p>
+            <p className="font-head font-bold text-2xl color ml-5">
+              ICAMM 2023
+            </p>
           </a>
         </div>
         <div className="flex-1"></div>
         <div className="flex items-center justify-center">
           <div className="hidden md:flex items-center space-x-3 text-lg pr-10">
-            <NavItem name="Important Dates" link="#section2" />
+            <NavItem name="Last Dates" link="#section2" />
             <NavItem name="About" link="#section3" />
             <NavItem name="Theme" link="#section5" />
             <NavItem name="Submission" link="#section6" />

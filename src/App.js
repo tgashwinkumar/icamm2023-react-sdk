@@ -13,7 +13,7 @@ import "./styles/tailwind.output.css";
 const App = () => {
   return (
     <main className="w-screen h-screen  overflow-x-hidden">
-      {/* <Navbar /> */}
+      <Navbar />
       <Section1 />
       <div className="translate-y-0 hidden lg:block">
         <ShapeDivider />

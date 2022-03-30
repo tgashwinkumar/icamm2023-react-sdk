@@ -27,7 +27,7 @@ const Section8 = () => {
         </div>
       </div>
       <div className="">
-        <div className="rounded-md grid grid-rows-5 bg-white w-full h-fit mt-20 ">
+        <div className="rounded-md grid grid-rows-5 bg-whitesmoke w-full h-fit mt-20 ">
           <div
             style={{
               borderTopLeftRadius: "0.375rem",
@@ -50,7 +50,7 @@ const Section8 = () => {
           />
         </div>
 
-        <div className=" rounded-md grid grid-rows-3 bg-white w-full h-fit mt-20">
+        <div className=" rounded-md grid grid-rows-3 bg-whitesmoke w-full h-fit mt-20">
           <div
             style={{
               borderTopLeftRadius: "0.375rem",
