@@ -46,12 +46,16 @@ const Navbar = () => {
       <div
         className={`${
           !color ? "bg-transparent" : "bg-green shadow-xl"
-        } w-full flex items-center justify-center  text-white py-2 pb-4 ease-in-out`}
+        } w-full flex items-center justify-center  text-white py-2 pb-4 ease-in-out transition-colors`}
       >
         <div className="flex items-center justify-center w-fit">
           <a href="#section1">
-            <p className="font-head font-bold text-2xl color ml-5">
-              ICAMM 2023
+            <p
+              className={`font-ubuntu font-bold text-2xl color ml-5 transition-all ${
+                !color ? "opacity-0" : "opacity-100"
+              }`}
+            >
+              icamm 2023
             </p>
           </a>
         </div>
