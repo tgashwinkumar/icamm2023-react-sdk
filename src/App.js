@@ -13,7 +13,7 @@ import Section9 from "./components/Section9";
 
 const App = () => {
   return (
-    <main className="w-screen h-screen  overflow-x-hidden">
+    <main className="w-screen overflow-x-hidden">
       <Navbar />
       <Section1 />
       <div className="translate-y-0 hidden lg:block">

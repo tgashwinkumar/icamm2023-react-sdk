@@ -11,16 +11,16 @@ const NavItem = ({ name, link }) => {
     >
       <p
         className={`${
-          isHover ? "text-white" : "text-gray-200"
-        } mx-4 my-2 duration-300 font-ubuntu md:text-sm`}
+          isHover ? "text-whitesmoke" : "text-white"
+        } mx-4 my-2 duration-300 font-ubuntu md:text-lg`}
       >
         {name}
       </p>
-      <div
+      {/* <div
         className={`${
           !isHover ? "w-1/2" : "w-1/5"
         } transition-all bg-white h-0.5 rounded-full`}
-      ></div>
+      ></div> */}
     </a>
   );
 };
@@ -30,7 +30,7 @@ const Navbar = () => {
 
   const changeColor = () => {
     console.log(window.scrollY);
-    if (window.scrollY >= 40) {
+    if (window.scrollY >= 150) {
       setColor(true);
     } else {
       setColor(false);
@@ -45,7 +45,7 @@ const Navbar = () => {
     <nav className="fixed z-10 h-auto w-full">
       <div
         className={`${
-          !color ? "bg-transparent" : "bg-dark-green shadow-xl"
+          !color ? "bg-transparent" : "bg-green shadow-xl"
         } w-full flex items-center justify-center  text-white py-2 pb-4 ease-in-out`}
       >
         <div className="flex items-center justify-center w-fit">
