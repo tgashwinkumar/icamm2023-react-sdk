@@ -65,8 +65,9 @@ const Navbar = () => {
             <NavItem name="Last Dates" link="#section2" />
             <NavItem name="About" link="#section3" />
             <NavItem name="Theme" link="#section5" />
-            <NavItem name="Submission" link="#section6" />
-            <NavItem name="Registration" link="#section7" />
+            <NavItem name="Speakers" link="#section7" />
+            <NavItem name="Submission" link="#section8" />
+            <NavItem name="Registration" link="#section9" />
           </div>
         </div>
       </div>
