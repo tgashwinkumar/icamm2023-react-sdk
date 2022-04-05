@@ -9,6 +9,7 @@ import Section8 from "./components/Section8";
 import Navbar from "./components/Navbar";
 import ShapeDivider from "./components/ShapeDivider";
 import "./styles/tailwind.output.css";
+import Section9 from "./components/Section9";
 
 const App = () => {
   return (
@@ -28,13 +29,15 @@ const App = () => {
       <Section5 />
       {/* Important Topics */}
       <Section6 />
-      {/* Call for Papers */}
+      {/*Speakers List*/}
       <Section7 />
+      {/* Call for Papers */}
+      <Section8 />
       <div className="mt-20 translate-y-0 hidden lg:block">
         <ShapeDivider theme="green" />
       </div>
       {/*About the Registration */}
-      <Section8 />
+      <Section9 />
     </main>
   );
 };
