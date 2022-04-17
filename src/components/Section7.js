@@ -1,9 +1,11 @@
 import React from "react";
 import Header from "./Header";
-import ReinNobel from "../assets/rein_nobel.jpg";
-import Krishnamoorthy from "../assets/krishnamoorthy.jpg";
-import Dharmaraja from "../assets/dharmaraja.jpg";
+import ReinNobel from "../assets/Nobel.png";
+import Krishnamoorthy from "../assets/krishnamoorthy2.png";
+import Dharmaraja from "../assets/dharmar@SFO.png";
 import Satyananda from "../assets/satyananda.jpg";
+import HugoLeiva from "../assets/Hugo_Leiva_1.jpg";
+import SivaguruSritharan from "../assets/RUAS_VC1.jpg";
 
 const SpeakersList = [
   {
@@ -27,24 +29,14 @@ const SpeakersList = [
     image: `${Satyananda}`,
   },
   {
-    name: "Prof. Rein Nobel",
-    desc: "Vrije University, Amsterdam, Netherlands",
-    image: `${ReinNobel}`,
+    name: "Prof. Hugo Leiva",
+    desc: "Professor, Department of Mathematics, Yachay Tech-University of Andes, Venezuela",
+    image: `${HugoLeiva}`,
   },
   {
-    name: "Prof. A.Krishnamoorthy",
-    desc: "Director, Center for Research in Mathematics, CMS College Kottayam, Kerala, India",
-    image: `${Krishnamoorthy}`,
-  },
-  {
-    name: "Prof. S.Dharmaraja",
-    desc: "IIT Delhi, India",
-    image: `${Dharmaraja}`,
-  },
-  {
-    name: "Prof. Dr.Satyananda Panda",
-    desc: "NIT Calicut, India",
-    image: `${Satyananda}`,
+    name: "Dr. Sivaguru S. Sritharan",
+    desc: "Chief Technologist, Go. AI Inc., Dayton, Ohio, USA",
+    image: `${SivaguruSritharan}`,
   },
 ];
 

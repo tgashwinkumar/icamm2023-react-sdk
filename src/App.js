@@ -10,6 +10,7 @@ import Navbar from "./components/Navbar";
 import ShapeDivider from "./components/ShapeDivider";
 import "./styles/tailwind.output.css";
 import Section9 from "./components/Section9";
+import Section10 from "./components/Section10";
 
 const App = () => {
   return (
@@ -38,6 +39,8 @@ const App = () => {
       </div>
       {/*About the Registration */}
       <Section9 />
+      {/* Organizing Committee */}
+      <Section10 />
     </main>
   );
 };
