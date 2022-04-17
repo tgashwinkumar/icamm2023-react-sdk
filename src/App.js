@@ -11,6 +11,7 @@ import ShapeDivider from "./components/ShapeDivider";
 import "./styles/tailwind.output.css";
 import Section9 from "./components/Section9";
 import Section10 from "./components/Section10";
+import Section11 from "./components/Section11";
 
 const App = () => {
   return (
@@ -41,6 +42,8 @@ const App = () => {
       <Section9 />
       {/* Organizing Committee */}
       <Section10 />
+      {/* Venue and Contact */}
+      <Section11/>
     </main>
   );
 };
