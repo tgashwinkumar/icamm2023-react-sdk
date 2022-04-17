@@ -1,20 +1,26 @@
 {
   "files": {
-    "main.css": "/icamm2023-react-sdk/static/css/main.e945c363.css",
-    "main.js": "/icamm2023-react-sdk/static/js/main.7effb94f.js",
+    "main.css": "/icamm2023-react-sdk/static/css/main.4cd0eacd.css",
+    "main.js": "/icamm2023-react-sdk/static/js/main.dcf8a58a.js",
     "static/js/787.6602bd0e.chunk.js": "/icamm2023-react-sdk/static/js/787.6602bd0e.chunk.js",
     "static/media/HOD_img.jpg": "/icamm2023-react-sdk/static/media/HOD_img.c67cb4899f1bbe80b01c.jpg",
+    "static/media/Hugo_Leiva_1.jpg": "/icamm2023-react-sdk/static/media/Hugo_Leiva_1.bcd121d037161efb811c.jpg",
+    "static/media/dharmar@SFO.png": "/icamm2023-react-sdk/static/media/dharmar@SFO.2b5d8ee57d6fc249b099.png",
     "static/media/psg_landing.jpg": "/icamm2023-react-sdk/static/media/psg_landing.a06d87f7482ee260188a.jpg",
+    "static/media/Nobel.png": "/icamm2023-react-sdk/static/media/Nobel.dc311c34a9607bab6150.png",
+    "static/media/krishnamoorthy2.png": "/icamm2023-react-sdk/static/media/krishnamoorthy2.44ec351cae775357d3e5.png",
+    "static/media/satyananda.jpg": "/icamm2023-react-sdk/static/media/satyananda.af1266c693d4d74fc869.jpg",
+    "static/media/RUAS_VC1.jpg": "/icamm2023-react-sdk/static/media/RUAS_VC1.4a107aae0fa677c91f5a.jpg",
     "static/media/PSG_logo.png": "/icamm2023-react-sdk/static/media/PSG_logo.91e77536c98ac2d70b22.png",
     "static/media/polka_dark.svg": "/icamm2023-react-sdk/static/media/polka_dark.e9925115a5b06747f85aabf9d7c78e71.svg",
     "static/media/polka_light.svg": "/icamm2023-react-sdk/static/media/polka_light.d1cc67ce14fc7ab576548e30a3c18dd3.svg",
     "index.html": "/icamm2023-react-sdk/index.html",
-    "main.e945c363.css.map": "/icamm2023-react-sdk/static/css/main.e945c363.css.map",
-    "main.7effb94f.js.map": "/icamm2023-react-sdk/static/js/main.7effb94f.js.map",
+    "main.4cd0eacd.css.map": "/icamm2023-react-sdk/static/css/main.4cd0eacd.css.map",
+    "main.dcf8a58a.js.map": "/icamm2023-react-sdk/static/js/main.dcf8a58a.js.map",
     "787.6602bd0e.chunk.js.map": "/icamm2023-react-sdk/static/js/787.6602bd0e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e945c363.css",
-    "static/js/main.7effb94f.js"
+    "static/css/main.4cd0eacd.css",
+    "static/js/main.dcf8a58a.js"
   ]
 }
