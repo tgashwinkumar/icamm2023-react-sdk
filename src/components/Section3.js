@@ -12,8 +12,8 @@ const Section3 = () => {
         <div className="flex-1 "></div>
         <div className="text-white lg:max-w-[60%] pt-16 font-poppins text-justify">
           PSG College of Technology an ISO 9001:2015 certified institution is
-          one of the foremost institutions founded by the PSG and sons’
-          Charities trust (1926). The college was established in the year 1951
+          one of the foremost institutions founded by the PSG and Sons’
+          Charities Trust (1926). The college was established in the year 1951
           and the founders wisely decided to locate it in the same campus as the
           PSG Industrial Institute for effective industry institute interaction.
           The founder Principal Dr.G.R.Damodaran was instrumental in the planned

@@ -46,21 +46,21 @@ const Section7 = () => {
       id="section7"
       className="w-screen h-fit py-16 px-6 lg:px-[calc(100vw/12)] space-y-4 lg:flex lg:flex-col bg-white"
     >
-      <div className="flex flex-col lg:flex-row items-start">
+      <div className="flex flex-col lg:flex-row items-start w-full">
         <Header theme="dark" subtext="this year" text="speakers" />
-        <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-6 text-black w-screen pt-24 md:pt-48 items-start justify-start">
+        <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-y-6 lg:gap-6 text-black w-full -ml-6 lg:ml-0 pt-24 md:pt-48 items-center justify-center lg:items-start lg:justify-start">
           {SpeakersList.map((speaker, index) => (
-            <div className="flex flex-col items-center justify-start w-fit space-y-1">
+            <div className="flex flex-col items-center justify-center lg:justify-start w-screen lg:w-fit space-y-1">
               <div
                 className="aspect-square w-56 filter grayscale"
                 style={{
                   backgroundImage: `url(${speaker.image})`,
-                  backgroundPosition: "center",
+                  backgroundPosition: "50% 20%",
                   backgroundSize: "cover",
                 }}
               ></div>
               <p className="font-semibold font-poppins">{speaker.name}</p>
-              <p className="text-sm text-center font-poppins text-green">
+              <p className="text-sm text-center font-poppins text-green w-[30ch] lg:w-auto">
                 {speaker.desc}
               </p>
             </div>

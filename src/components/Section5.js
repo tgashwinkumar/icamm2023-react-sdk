@@ -39,9 +39,9 @@ const Section5 = () => {
             </div>
           </div>
           <p className="">
-            The conference will be conducted through hybrid mode (online &
-            offline) with invited talks from the experts around the world and
-            will focus on the following areas:
+            The conference will be conducted through{" "}
+            <span className="font-bold">hybrid mode (online & offline)</span> with invited talks from
+            the experts around the world and will focus on the following areas:
           </p>
         </div>
       </div>

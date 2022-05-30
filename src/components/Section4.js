@@ -36,7 +36,8 @@ const Section4 = () => {
               Applied Mathematics to make them dedicated engineers and
               scientists. Every year a good contribution of research articles in
               Scopus and SCI indexed journals to the credit of the department.
-              Many funded research projects sponsored by UGC, CSIR and DST.
+              Many funded research projects sponsored by UGC, CSIR and DST have
+              been completed.
             </div>
           </div>
         </div>
