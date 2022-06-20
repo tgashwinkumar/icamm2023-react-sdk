@@ -22,6 +22,10 @@ const Section6 = () => {
         <div className="w-full border-solid rounded-md p-4 pr-12 text-left  text-white shadow-lg bg-green flex items-center justify-start font-poppins text-lg">
           Mathematical Analysis
         </div>
+
+        <div className="w-full border-solid rounded-md p-4 pr-12 text-left  text-white shadow-lg bg-green flex items-center justify-start font-poppins text-lg">
+          Algebra & Algebraic Geometry
+        </div>
       </div>
     </section>
   );

@@ -41,12 +41,12 @@ const Section9 = () => {
           >
             Indian Delegates
           </div>
-          <Row category="Academecians" price="₹2500" />
+          <Row category="Academecians" price="₹1500" />
           <Row
             category="Industry / R&D Institutuion Participants"
-            price="₹1500"
+            price="₹2500"
           />
-          <Row category="Full Time Research Scholars" price="₹1000" />
+          <Row category="Full Time Research Scholars / Students" price="₹1000" />
           <Row
             category="Accompanying guests / Spouse"
             price="₹1000"
