@@ -72,6 +72,16 @@ const Section9 = () => {
           />
         </div>
       </div>
+      <div className="text-lg font-poppins text-white">
+        <div className="text-xl font-bold mt-4">Payment Details</div>
+        <div className="mt-6">
+          Account Holder - PSG Center for Non Formal and Continuing Education
+        </div>
+        <div className="">IFSC Code - CBIN0280913</div>
+        <div className="">Bank Name - Central Bank of India</div>
+        <div className="">MICR Code - 641016006</div>
+      </div>
+
       <div className=" items-start my-6 pt-8 lg:space-y-0">
         <p className="text-white text-2xl font-ubuntu font-semibold">
           Accomodation & Visa

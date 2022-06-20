@@ -12,6 +12,7 @@ import "./styles/tailwind.output.css";
 import Section9 from "./components/Section9";
 import Section10 from "./components/Section10";
 import Section11 from "./components/Section11";
+import Section12 from "./components/Section12";
 
 const App = () => {
   return (
@@ -44,6 +45,7 @@ const App = () => {
       <Section10 />
       {/* Venue and Contact */}
       <Section11/>
+      <Section12 />
     </main>
   );
 };

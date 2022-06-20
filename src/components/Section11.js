@@ -2,10 +2,11 @@ import Header from "./Header";
 import { BsTelephone, BsFillTelephoneFill } from "react-icons/bs";
 import { MdOutlineEmail } from "react-icons/md";
 import Map from "./Map";
+import psgtech from "../assets/psg-tech.png";
 
 const mapStyles = {
-  width: '100%',
-  height: '100%',
+  width: "100%",
+  height: "100%",
 };
 
 const Section11 = () => {
@@ -14,9 +15,15 @@ const Section11 = () => {
       id="section9"
       className="w-screen h-fit space-y-4 flex flex-col lg:flex-row bg-white"
     >
-      <div className="min-h-[60vh] h-full w-full lg:w-1/2 text-slate">
-      <Map/>
-      </div>
+      <a
+        href="https://www.google.com/maps?q=psg+college+of+technology&um=1&ie=UTF-8&sa=X&ved=2ahUKEwiqz_ba_rv4AhXC3jgGHeboCLYQ_AUoBHoECAIQBg" 
+        className="min-h-[60vh] h-full w-full lg:w-1/2 text-slate m-6 rounded-lg"
+        style={{
+          backgroundImage: `url(${psgtech})`,
+          backgroundPosition: "center",
+          backgroundSize: "fit",
+        }}
+      ></a>
       <div className="w-full lg:w-1/2 flex flex-col  items-start px-6 py-16 lg:px-[calc(100vw/12)]">
         <Header theme="dark" subtext="for" text="contact" />
         <div className="mt-6 space-y-4">
