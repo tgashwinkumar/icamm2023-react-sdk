@@ -8,10 +8,10 @@ const Section6 = () => {
     >
       <div className="grid grid-cols-1 lg:grid-cols-2 lg:max-w-[60%] gap-x-8 gap-y-8 text-center ">
         <div className="w-full border-solid rounded-md p-4 pr-12 text-left  text-white shadow-lg bg-green flex items-center justify-start font-poppins text-lg">
-          Cryptography and Security
+          Cryptography and Network Security
         </div>
         <div className="w-full border-solid rounded-md p-4 pr-12 text-left  text-white shadow-lg bg-green flex items-center justify-start font-poppins text-lg">
-          Graph theory and Combinatrics
+          Graph theory and Combinatorics
         </div>
         <div className="w-full border-solid rounded-md p-4 pr-12 text-left  text-white shadow-lg bg-green flex items-center justify-start font-poppins text-lg">
           Soft Computing and Computational Mathematics

@@ -50,7 +50,7 @@ const Section10 = () => {
             Dr. T. Vasanthi
           </p>
           <p className="text-dark-green mt-1 font-poppins w-full">
-            Assistant Professor
+            Professor
             <br />
             Department of Mathematics, <br/> PSG College of Technology
           </p>

@@ -1,6 +1,5 @@
 {
   "name": "icamm-2023",
-  "homepage": "https://tgashwinkumar.github.io/icamm2023-react-sdk",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -26,9 +25,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "watch-tw": "npx tailwindcss -i ./src/styles/tailwind.css -o ./src/styles/tailwind.output.css --watch",
-    "start-tw": "concurrently \"react-scripts start\" \"npx tailwindcss -i ./src/styles/tailwind.css -o ./src/styles/tailwind.output.css --watch\"",
-    "predeploy": "yarn run build",
-    "deploy": "gh-pages -d build"
+    "start-tw": "concurrently \"react-scripts start\" \"npx tailwindcss -i ./src/styles/tailwind.css -o ./src/styles/tailwind.output.css --watch\""
   },
   "eslintConfig": {
     "extends": [

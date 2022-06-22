@@ -41,7 +41,7 @@ const Section9 = () => {
           >
             Indian Delegates
           </div>
-          <Row category="Academecians" price="₹1500" />
+          <Row category="Academicians" price="₹1500" />
           <Row
             category="Industry / R&D Institutuion Participants"
             price="₹2500"
@@ -64,7 +64,7 @@ const Section9 = () => {
           >
             Foreign Delegates
           </div>
-          <Row category="Academecians" price="200 USD" />
+          <Row category="Academicians" price="200 USD" />
           <Row
             category="Accompanying guests / Spouse"
             price="100 USD"
