@@ -1,6 +1,8 @@
 import React from "react";
 import Header from "./Header";
 import { FiMail } from "react-icons/fi";
+import { FiFileText } from "react-icons/fi";
+
 const Section8 = () => {
   return (
     <section
@@ -27,6 +29,10 @@ const Section8 = () => {
           <div className="text-xl font-ubuntu flex space-x-2 items-center mt-2">
             <FiMail size={24} />
             <p className="">icamm2023@psgtech.ac.in</p>
+          </div>
+          <div className="text-xl font-ubuntu flex space-x-2 items-center mt-8">
+            <FiFileText size={24} />
+            <a href="https://drive.google.com/file/d/1FlH-MbwrAxDjrtQs05EL91CG7GnpkT6P/view?usp=sharing">Author Guidelines and Templates</a>
           </div>
         </div>
       </div>
