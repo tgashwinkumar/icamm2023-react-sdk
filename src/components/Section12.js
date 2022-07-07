@@ -1,10 +1,10 @@
 const Section12 = () => {
   return (
-    <section className=" flex flex-col justify-center items-center font-poppins -mt-8">
+    <section className=" flex flex-col justify-center items-center font-poppins bg-dark-green hover:bg-green">
       <button
-        className="bg-whitesmoke text-black text-2xl m-3 px-3 py-1.5 rounded-[12px] hover:bg-black hover:text-white"
+        className=" text-4xl px-3 py-6 rounded-[12px] text-white"
       >
-        Register
+        Register !
       </button>
     </section>
   );

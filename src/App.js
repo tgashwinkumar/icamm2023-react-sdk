@@ -13,6 +13,7 @@ import Section9 from "./components/Section9";
 import Section10 from "./components/Section10";
 import Section11 from "./components/Section11";
 import Section12 from "./components/Section12";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
@@ -43,9 +44,11 @@ const App = () => {
       <Section9 />
       {/* Organizing Committee */}
       <Section10 />
+      {/* Register Button */}
+      <Section12 />
       {/* Venue and Contact */}
       <Section11/>
-      <Section12 />
+      <Footer/>
     </main>
   );
 };

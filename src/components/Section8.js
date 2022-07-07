@@ -26,14 +26,14 @@ const Section8 = () => {
             For all communications and paper submissions use the e-mail address
             :-
           </div>
-          <div className="text-xl font-ubuntu flex space-x-2 items-center mt-2">
+          <div className="text-xl font-ubuntu flex space-x-2 items-center mt-2 px-4">
             <FiMail size={24} />
             <p className="">icamm2023@psgtech.ac.in</p>
           </div>
-          <div className="text-xl font-ubuntu flex space-x-2 items-center mt-8">
+          <button className="text-xl font-ubuntu flex space-x-2 items-center mt-8 bg-dark-green text-white px-4 py-2 rounded-lg shadow-lg w-fit hover:scale-[99%] transition-all ease-in-out">
             <FiFileText size={24} />
-            <a href="https://drive.google.com/file/d/1FlH-MbwrAxDjrtQs05EL91CG7GnpkT6P/view?usp=sharing">Author Guidelines and Templates</a>
-          </div>
+            <a href="https://drive.google.com/file/d/1FlH-MbwrAxDjrtQs05EL91CG7GnpkT6P/view?usp=sharing" className="">Author Guidelines and Templates</a>
+          </button>
         </div>
       </div>
     </section>

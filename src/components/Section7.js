@@ -11,61 +11,62 @@ import Radhakrishnan from "../assets/Radhakrishnan-Balu.jpg";
 import Swaminathan from "../assets/Swaminathan-Anbhu.jpg";
 import Arun from "../assets/Viswanathan-Arunachalam.jpg";
 import Vidyotama from "../assets/Vidyottama-Jain.png";
+
 const SpeakersList = [
   {
     name: "Prof. Rein Nobel",
     desc: "Vrije University, Amsterdam, Netherlands",
-    image: `${ReinNobel}`,
+    image: ReinNobel,
   },
   {
     name: "Prof. A.Krishnamoorthy",
     desc: "Director, Center for Research in Mathematics, CMS College Kottayam, Kerala, India",
-    image: `${Krishnamoorthy}`,
+    image: Krishnamoorthy,
   },
   {
     name: "Prof. S.Dharmaraja",
     desc: "IIT Delhi, India",
-    image: `${Dharmaraja}`,
+    image: Dharmaraja,
   },
   {
     name: "Prof. Dr.Satyananda Panda",
     desc: "NIT Calicut, India",
-    image: `${Satyananda}`,
+    image: Satyananda,
   },
   {
     name: "Prof. Hugo Leiva",
     desc: "Professor, Department of Mathematics, Yachay Tech-University of Andes, Venezuela",
-    image: `${HugoLeiva}`,
+    image: HugoLeiva,
   },
   {
     name: "Dr. Sivaguru S. Sritharan",
     desc: "Chief Technologist, Go. AI Inc., Dayton, Ohio, USA",
-    image: `${SivaguruSritharan}`,
+    image: SivaguruSritharan,
   },
   {
     name: "Dr. rer. nat. Jitendra Kumar",
     desc: "Professor, Department of Mathematics, Indian Institute of Technology Kharagpur ,Kharagpur - 721302, India",
-    image: `${Jitendra}`,
+    image: Jitendra,
   },
   {
     name: "Dr.A. Swaminathan",
     desc: "Professor, Department of Mathematics Associate Dean Academic Affairs (IT Systems and Admissions)Indian Institute of Technology Roorkee Roorkee 247 667, India",
-    image: `${Swaminathan}`,
+    image: Swaminathan,
   },
   {
     name: "Balu, Radhakrishnan",
     desc: "Adjunct Professor Department of Mathematics University of Maryland,Research scientist, US Army research Lab,Adelphi ,MD",
-    image: `${Radhakrishnan}`,
+    image: Radhakrishnan,
   },
   {
     name: "Viswanathan (ARUN) Arunachalam PhD",
     desc: "Statistics,Faculty Member , National University of Colombia",
-    image: `${Arun}`,
+    image: Arun,
   },
   {
     name: "Vidyottama Jain",
     desc: "Assistant Professor Department of Mathematics Central University of Rajasthan Post-Doctoral Fellow BISC-University of California Berkeley Ph.D.-Indian Institute of Technology Delhi.",
-    image: `${Vidyotama}`,
+    image: Vidyotama,
   },
 ];
 

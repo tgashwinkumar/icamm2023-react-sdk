@@ -13,15 +13,15 @@ const Section11 = () => {
   return (
     <section
       id="section9"
-      className="w-screen h-fit space-y-4 flex flex-col lg:flex-row bg-white"
+      className="w-screen h-fit space-y-4 lg:space-y-0 flex flex-col lg:flex-row bg-white overflow-x-hidden"
     >
       <a
         href="https://www.google.com/maps?q=psg+college+of+technology&um=1&ie=UTF-8&sa=X&ved=2ahUKEwiqz_ba_rv4AhXC3jgGHeboCLYQ_AUoBHoECAIQBg" 
-        className="min-h-[60vh] h-full w-full lg:w-1/2 text-slate m-6 rounded-lg"
+        className="min-h-[60vh] w-screen lg:w-1/2 text-slate rounded-lg"
         style={{
           backgroundImage: `url(${psgtech})`,
           backgroundPosition: "center",
-          backgroundSize: "fit",
+          backgroundSize: "cover",
         }}
       ></a>
       <div className="w-full lg:w-1/2 flex flex-col  items-start px-6 py-16 lg:px-[calc(100vw/12)]">
