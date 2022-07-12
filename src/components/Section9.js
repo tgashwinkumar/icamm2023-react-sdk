@@ -46,7 +46,10 @@ const Section9 = () => {
             category="Industry / R&D Institutuion Participants"
             price="₹2500"
           />
-          <Row category="Full Time Research Scholars / Students" price="₹1000" />
+          <Row
+            category="Full Time Research Scholars / Students"
+            price="₹1000"
+          />
           <Row
             category="Accompanying guests / Spouse"
             price="₹1000"
@@ -77,6 +80,7 @@ const Section9 = () => {
         <div className="mt-6">
           Account Holder - PSG Center for Non Formal and Continuing Education
         </div>
+        <div className="">Account Number - 1481267376</div>
         <div className="">IFSC Code - CBIN0280913</div>
         <div className="">Bank Name - Central Bank of India</div>
         <div className="">MICR Code - 641016006</div>

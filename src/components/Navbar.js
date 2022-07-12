@@ -68,6 +68,10 @@ const Navbar = () => {
             <NavItem name="Speakers" link="#section7" />
             <NavItem name="Submission" link="#section8" />
             <NavItem name="Registration" link="#section9" />
+            <NavItem
+              name="Brochure"
+              link="https://drive.google.com/file/d/1A5VMjIReOJII-XctR6UVAGESS9v_q2oi/view?usp=sharing"
+            />
           </div>
         </div>
       </div>

@@ -74,11 +74,11 @@ const Section7 = () => {
   return (
     <section
       id="section7"
-      className="w-screen h-fit py-16 px-6 lg:px-[calc(100vw/12)] space-y-4 lg:flex lg:flex-col bg-white"
+      className="w-screen px-5 h-fit py-16 lg:px-[calc(100vw/12)] space-y-4 lg:flex lg:flex-col bg-white"
     >
       <div className="flex flex-col lg:flex-row items-start w-full">
         <Header theme="dark" subtext="this year" text="speakers" />
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-6 text-black w-screen pt-24 md:pt-48 -mt-8 items-start justify-start">
+        <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-6 text-black w-screen pt-24 md:pt-48 -mt-8 items-start justify-start">
           {SpeakersList.map((speaker, index) => (
             <div className="flex flex-col items-center justify-center lg:justify-start w-screen lg:w-fit space-y-1">
               <div

@@ -5,7 +5,7 @@ import Header from "./Header";
 const Section4 = () => {
   return (
     <section
-      id="section3"
+      id="section4"
       className="w-screen h-fit px-6 py-16 lg:px-[calc(100vw/12)] space-y-4 lg:flex lg:flex-col bg-white"
     >
       <div className="flex flex-col lg:flex-row items-start">
