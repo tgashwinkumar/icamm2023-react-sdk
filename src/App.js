@@ -14,6 +14,7 @@ import Section10 from "./components/Section10";
 import Section11 from "./components/Section11";
 import Section12 from "./components/Section12";
 import Footer from "./components/Footer";
+import Section13 from "./components/Section13";
 
 const App = () => {
   return (
@@ -23,8 +24,8 @@ const App = () => {
       <div className="translate-y-0 hidden lg:block">
         <ShapeDivider />
       </div>
-      {/* Important Dates */}
-      <Section2 />
+      {/* Jounrla Publication */}
+      <Section13 />
       {/* About the Institution */}
       <Section3 />
       {/* About the Department */}
@@ -37,6 +38,8 @@ const App = () => {
       <Section7 />
       {/* Call for Papers */}
       <Section8 />
+      {/* Important Dates */}
+      <Section2 />
       <div className="mt-20 translate-y-0 hidden lg:block">
         <ShapeDivider theme="green" />
       </div>
